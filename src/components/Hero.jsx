@@ -37,7 +37,7 @@ export default function Hero() {
           </motion.span>
           <motion.h1
             variants={fadeInUp}
-            className=" text-4xl Libre text-ink sm:text-5xl lg:text-6xl"
+            className=" text-4xl Libre text-ink sm:text-5xl tracking-wider"
           >
             Watch Straps That Honour Your Timepiece And The Planet.
           </motion.h1>
