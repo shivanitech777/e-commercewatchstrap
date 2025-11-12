@@ -39,10 +39,28 @@ export default function CollectionDetailClient({
               language. Pair these straps with your favourite complications or
               daily drivers.
             </p>
+            <p className="text-base text-stone-600">
+              Each assortment is intentionally curated to highlight materials,
+              moods, and finishing details that define EcoCet&apos;s craft
+              language. Pair these straps with your favourite complications or
+              daily drivers.
+            </p>
+            <p className="text-base text-stone-600">
+              Each assortment is intentionally curated to highlight materials,
+              moods, and finishing details that define EcoCet&apos;s craft
+              language. Pair these straps with your favourite complications or
+              daily drivers.
+            </p>
+            <p className="text-base text-stone-600">
+              Each assortment is intentionally curated to highlight materials,
+              moods, and finishing details that define EcoCet&apos;s craft
+              language. Pair these straps with your favourite complications or
+              daily drivers.
+            </p>
           </motion.div>
           <motion.div
             variants={slideInRight}
-            className="relative aspect-[5/4] overflow-hidden rounded-[32px] bg-ivory shadow-soft"
+            className="relative aspect-[5/4] overflow-hidden rounded bg-ivory shadow-soft"
           >
             <Image
               src={collection.image}

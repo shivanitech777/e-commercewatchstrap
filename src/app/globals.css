@@ -37,8 +37,14 @@
     letter-spacing: -0.02em;
   }
 
+  h1{
+    font-weight: Libre;
+    letter-spacing:  0.05em;
+    text-transform: uppercase
+  }
+
   section {
-    @apply py-section;
+    @apply py-16;
   }
 
   ::selection {
@@ -54,4 +60,12 @@
   .max-content-width {
     @apply mx-auto w-full max-w-7xl px-6 lg:px-12;
   }
+}
+
+
+.Libre {
+  font-family: var(--font-libre) !important;
+}
+.Poppins{
+  font-family:var(--font-poppins) !important;
 }

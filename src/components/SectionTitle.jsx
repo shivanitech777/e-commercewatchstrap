@@ -25,7 +25,7 @@ export default function SectionTitle({
           {eyebrow}
         </span>
       ) : null}
-      <h2 className="text-balance text-3xl font-semibold text-ink sm:text-4xl">
+      <h2 className="text-balance text-3xl font-semibold text-ink sm:text-4xl Libre uppercase tracking-wider">
         {title}
       </h2>
       {subtitle ? <p className="text-base text-stone-500">{subtitle}</p> : null}

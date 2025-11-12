@@ -34,11 +34,11 @@ export default function Header() {
       >
         <Link href="/" className="flex items-center gap-2">
           <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand/10 text-brand font-display text-lg">
-            EC
+            SB
           </span>
           <div className="flex flex-col leading-tight">
-            <span className="font-display text-xl text-ink">EcoCet</span>
-            <span className="text-xs uppercase tracking-[0.3em] text-stone-500">
+            <span className="font-display text-xl text-ink">SheBreak</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-stone-500">
               Premium Straps
             </span>
           </div>

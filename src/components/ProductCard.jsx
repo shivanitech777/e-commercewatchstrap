@@ -1,12 +1,14 @@
 "use client";
 
-import Link from "next/link";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { fadeInUp, hoverLift } from "../lib/motion";
 import { formatCurrencyINR } from "../lib/utils";
+import { useRouter } from "next/navigation";
 
 export default function ProductCard({ product }) {
+  const route = useRouter()
   return (
     <motion.article variants={fadeInUp} className="group">
       <motion.div
@@ -14,10 +16,11 @@ export default function ProductCard({ product }) {
         initial="rest"
         whileHover="hover"
         whileTap="tap"
-        className="flex h-full flex-col overflow-hidden rounded-card bg-white p-4 shadow-soft transition duration-300 sm:p-5"
+        onClick={()=> route.push(`/product/${product.id}`)}
+        className="flex h-full flex-col overflow-hidden cursor-pointer  bg-white p-3 shadow-soft transition duration-300 "
       >
-        <Link href={`/product/${product.id}`} className="block">
-          <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-sand sm:rounded-[1.75rem]">
+        <div className="block">
+          <div className="relative aspect-[4/5] overflow-hidden  bg-sand ">
             <Image
               src={product.image}
               alt={product.name}
@@ -26,16 +29,16 @@ export default function ProductCard({ product }) {
               sizes="(max-width: 640px) 45vw, (max-width: 1024px) 30vw, 20vw"
             />
           </div>
-        </Link>
+        </div>
         <div className="flex flex-1 flex-col justify-between gap-4 pt-4 sm:pt-6">
           <div className="space-y-2">
             <h3 className="text-base font-semibold text-ink sm:text-lg">
-              <Link
-                href={`/product/${product.id}`}
+              <span
+                
                 className="transition duration-200 hover:text-brand"
               >
                 {product.name}
-              </Link>
+              </span>
             </h3>
             <p className="text-xs text-stone-500 sm:text-sm">
               {product.subtitle}
@@ -47,7 +50,7 @@ export default function ProductCard({ product }) {
             </p>
             <motion.button
               type="button"
-              className="rounded-full border border-brand/20 px-3 py-1.5 text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-brand transition duration-300 hover:border-brand hover:bg-brand/10 sm:px-4 sm:py-2 sm:text-xs"
+              className=" border border-brand/20 px-3 py-1.5 text-[0.65rem] font-semibold uppercase  text-brand transition duration-300 hover:border-brand hover:bg-brand/10 sm:px-4 sm:py-2 sm:text-xs"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               aria-label={`Add ${product.name} to cart`}

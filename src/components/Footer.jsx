@@ -63,14 +63,14 @@ export default function Footer() {
                 EC
               </span>
               <div className="leading-tight">
-                <p className="font-display text-2xl">EcoCet</p>
+                <p className="font-display text-2xl">SheBreak</p>
                 <p className="text-sm uppercase tracking-[0.4em] text-white/60">
                   Premium Straps
                 </p>
               </div>
             </Link>
             <p className="max-w-xs text-sm text-white/70">
-              Eco-conscious craftsmanship and refined design combine to create
+             SheBreak craftsmanship and refined design combine to create
               watch straps that age gracefully with every wear.
             </p>
             <div className="flex items-center gap-4">
@@ -89,7 +89,7 @@ export default function Footer() {
 
           {footerLinks.map((section) => (
             <div key={section.title}>
-              <h3 className="text-sm font-semibold uppercase tracking-[0.3em] text-brand/75">
+              <h3 className="text-sm font-semibold uppercase  text-brand/75">
                 {section.title}
               </h3>
               <ul className="mt-4 space-y-3 text-sm text-white/70">

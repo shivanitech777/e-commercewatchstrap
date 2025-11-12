@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(17,83,53,0.08),transparent_60%)]" />
       </div>
 
-      <div className="max-content-width grid items-center gap-16 pt-[5.5rem] lg:grid-cols-[1.1fr_0.9fr] lg:gap-24">
+      <div className="max-content-width grid items-center gap-16 pt-[2.1rem] lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -37,13 +37,13 @@ export default function Hero() {
           </motion.span>
           <motion.h1
             variants={fadeInUp}
-            className="text-balance text-4xl font-semibold text-ink sm:text-5xl lg:text-6xl"
+            className=" text-4xl Libre text-ink sm:text-5xl lg:text-6xl"
           >
-            Watch straps that honour your timepiece and the planet.
+            Watch Straps That Honour Your Timepiece And The Planet.
           </motion.h1>
           <motion.p
             variants={fadeInUp}
-            className="max-w-xl text-base text-stone-600 sm:text-lg"
+            className="max-w-xl text-base text-stone-600 sm:text-lg font-serif  "
           >
             Discover elevated straps crafted from conscious materials, tuned for
             comfort, and finished with artisan detail. EcoCet brings premium
@@ -55,13 +55,13 @@ export default function Hero() {
           >
             <Link
               href="/products"
-              className="inline-flex items-center justify-center rounded-full bg-brand px-7 py-3 text-sm font-semibold text-white shadow-soft transition duration-300 hover:bg-brand-light hover:shadow-lift"
+              className="inline-flex items-center justify-center  bg-brand px-7 py-3 text-sm font-semibold text-white shadow-soft transition duration-300 hover:bg-brand-light hover:shadow-lift"
             >
               Shop Now
             </Link>
             <Link
               href="#collections"
-              className="inline-flex items-center justify-center rounded-full border border-brand/20 px-7 py-3 text-sm font-semibold text-brand transition duration-300 hover:border-brand hover:bg-brand/10"
+              className="inline-flex items-center justify-center border border-brand/20 px-7 py-3 text-sm font-semibold text-brand transition duration-300 hover:border-brand hover:bg-brand/10"
             >
               Explore Collections
             </Link>
@@ -88,7 +88,7 @@ export default function Hero() {
           variants={slideInRight}
           className="relative mx-auto w-full max-w-xl"
         >
-          <div className="relative aspect-[3/4] overflow-hidden rounded-[34px] bg-white shadow-lift">
+          <div className="relative aspect-[3/4] overflow-hidden  bg-white shadow-lift">
             <Image
               src="/watch.jpg"
               alt="EcoCet premium watch strap displayed on a wooden surface"
@@ -99,7 +99,7 @@ export default function Hero() {
             />
           </div>
           <motion.div
-            className="absolute -bottom-10 left-1/3 w-[85%] -translate-x-1/2 rounded-2xl border border-white/60 bg-white/90 p-6 shadow-soft backdrop-blur"
+            className="absolute -bottom-10 left-1/3 w-[85%] -translate-x-1/2  border border-white/60 bg-white/90 p-6 shadow-soft backdrop-blur"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6, ease: [0.19, 1, 0.22, 1] }}

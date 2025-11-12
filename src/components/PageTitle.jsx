@@ -11,7 +11,7 @@ export default function PageTitle({ title, subtitle }) {
       animate="visible"
       variants={fadeInUp}
     >
-      <h1 className="text-balance text-4xl font-semibold text-ink sm:text-5xl">
+      <h1 className="text-balance text-4xl font-semibold text-ink sm:text-5xl Libre uppercase tracking-wider">
         {title}
       </h1>
       {subtitle ? (

@@ -1,25 +1,29 @@
 "use client";
 
-import Link from "next/link";
+
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { hoverLift, fadeInUp } from "../lib/motion";
+import { useRouter } from "next/navigation";
 
 export default function CollectionCard({ collection }) {
+
+  const route = useRouter()
   return (
     <motion.article
       variants={fadeInUp}
-      className="group"
+      className="group cursor-pointer"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }}
+      onClick={()=> route.push(`/collections/${collection.id}`)}
     >
       <motion.div
         variants={hoverLift}
         initial="rest"
         whileHover="hover"
         whileTap="tap"
-        className="flex h-full flex-col overflow-hidden rounded-card bg-white shadow-soft transition duration-300"
+        className="flex h-full flex-col overflow-hidden  bg-white shadow-soft transition duration-300"
       >
         <div className="relative aspect-[4/3] overflow-hidden bg-sand">
           <Image
@@ -42,13 +46,13 @@ export default function CollectionCard({ collection }) {
             {collection.description}
           </p>
           <div className="mt-auto">
-            <Link
-              href={`/collections/${collection.id}`}
-              className="inline-flex items-center gap-2 rounded-full border border-brand/20 px-5 py-2 text-xs font-semibold uppercase tracking-[0.25em] text-brand transition duration-300 hover:border-brand hover:bg-brand/10"
+            <span
+             
+              className="inline-flex items-center gap-2  border border-brand/20 px-5 py-2 text-xs font-poppins uppercase tracking-[0.12em] text-brand transition duration-300 hover:border-brand hover:bg-brand/10"
             >
               Explore
               <span aria-hidden="true">→</span>
-            </Link>
+            </span>
           </div>
         </div>
       </motion.div>

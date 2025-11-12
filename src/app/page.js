@@ -55,7 +55,7 @@ export default function Page() {
       <Hero />
 
       <section id="collections" className="bg-white">
-        <div className="max-content-width py-16">
+        <div className="max-content-width py-3">
           <SectionTitle
             eyebrow="Curated Collections"
             title="Straps for every story you wear"
@@ -192,7 +192,7 @@ export default function Page() {
             </p>
             <motion.a
               href="mailto:studio@ecocet.com"
-              className="inline-flex items-center justify-center rounded-full bg-brand px-8 py-3 text-sm font-semibold text-white shadow-soft transition duration-300 hover:bg-brand-light hover:shadow-lift"
+              className="inline-flex items-center justify-center rounded bg-brand px-8 py-3 text-sm font-semibold text-white shadow-soft transition duration-300 hover:bg-brand-light hover:shadow-lift"
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
             >
