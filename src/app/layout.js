@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 import localFont from "next/font/local";
 
 export const metadata = {
-  title: "EcoCet – Premium Watch Straps",
+  title: "SheBreak – Premium Watch Straps",
   description:
-    "Discover premium, eco-conscious watch straps handcrafted with sustainable materials by EcoCet.",
+    "Discover premium, eco-conscious watch straps handcrafted with sustainable materials by SheBreak.",
 };
 
 

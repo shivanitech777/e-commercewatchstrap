@@ -11,7 +11,7 @@ const milestones = [
     year: "2018",
     title: "Idea to reality",
     description:
-      "EcoCet was founded in Bengaluru with a mission to craft responsible watch straps without compromising luxury.",
+      "SheBreak was founded in Bengaluru with a mission to craft responsible watch straps without compromising luxury.",
   },
   {
     year: "2020",
@@ -32,7 +32,7 @@ export default function OurStoryPage() {
     <main className="relative pt-[6.5rem] pb-20">
       <PageTitle
         title="Crafted with conscience, worn with pride"
-        subtitle="EcoCet blends horological passion with planet-positive materials. We believe luxury feels better when it is mindful."
+        subtitle="SheBreak blends horological passion with planet-positive materials. We believe luxury feels better when it is mindful."
       />
 
       <motion.section
@@ -47,7 +47,7 @@ export default function OurStoryPage() {
               Workshop heritage meets modern sustainability.
             </h2>
             <p className="text-base text-stone-600 sm:text-lg">
-              Each EcoCet strap is hand-finished by artisans who have studied
+              Each SheBreak strap is hand-finished by artisans who have studied
               the intricacies of watchmaking and leather craft. We partner with
               family-run tanneries in Tuscany and Tamil Nadu, and collaborate
               with textile cooperatives to source recycled fibres.
@@ -65,7 +65,7 @@ export default function OurStoryPage() {
           >
             <Image
               src="/all.jpg"
-              alt="EcoCet artisans preparing leather straps"
+              alt="SheBreak artisans preparing leather straps"
               fill
               className="object-cover"
             />
@@ -120,7 +120,7 @@ export default function OurStoryPage() {
           <SectionTitle
             eyebrow="Timeline"
             title="Milestones on our journey"
-            subtitle="Years of experimentation and collaboration have shaped how EcoCet approaches mindful luxury."
+            subtitle="Years of experimentation and collaboration have shaped how SheBreak approaches mindful luxury."
             align="center"
           />
           <motion.ol

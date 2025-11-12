@@ -55,7 +55,7 @@ export default function ContactPage() {
     <main className="relative pt-[6.5rem] pb-20">
       <PageTitle
         title="We would love to hear from you"
-        subtitle="Collaborate on bespoke straps, ask questions, or simply say hello. The EcoCet atelier team responds within 2 business days."
+        subtitle="Collaborate on bespoke straps, ask questions, or simply say hello. The SheBreak atelier team responds within 2 business days."
       />
 
       <motion.section
@@ -67,7 +67,7 @@ export default function ContactPage() {
         <div className="max-content-width grid gap-12 lg:grid-cols-[1fr_1.1fr]">
           <motion.div variants={fadeInUp} className="space-y-6">
             <h2 className="text-3xl font-semibold text-ink sm:text-4xl">
-              Contact the EcoCet studio
+              Contact the SheBreak studio
             </h2>
             <p className="text-base text-stone-600">
               Whether you are planning a limited run for a special occasion or
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 .
               </p>
               <p className="mt-4 text-sm text-stone-500">
-                Visit us at the EcoCet showroom, 21 Residency Road, Bengaluru.
+                Visit us at the SheBreak showroom, 21 Residency Road, Bengaluru.
               </p>
             </div>
           </motion.div>

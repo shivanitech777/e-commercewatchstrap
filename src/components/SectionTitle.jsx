@@ -7,7 +7,7 @@ export default function SectionTitle({
   title,
   subtitle,
   align = "left",
-  eyebrow = "EcoCet Collection",
+  eyebrow = "SheBreak Collection",
 }) {
   const alignment =
     align === "center" ? "mx-auto text-center max-w-2xl" : "text-left max-w-xl";

@@ -33,7 +33,7 @@ export default function Hero() {
             variants={fadeInUp}
             className="inline-flex items-center gap-2 rounded-full border border-brand/15 bg-white px-4 py-2 text-xs font-medium uppercase tracking-[0.35em] text-brand"
           >
-            EcoCet
+            SheBreak
           </motion.span>
           <motion.h1
             variants={fadeInUp}
@@ -46,7 +46,7 @@ export default function Hero() {
             className="max-w-xl text-base text-stone-600 sm:text-lg font-serif  "
           >
             Discover elevated straps crafted from conscious materials, tuned for
-            comfort, and finished with artisan detail. EcoCet brings premium
+            comfort, and finished with artisan detail. SheBreak brings premium
             craftsmanship to every watch you love.
           </motion.p>
           <motion.div
@@ -91,7 +91,7 @@ export default function Hero() {
           <div className="relative aspect-[3/4] overflow-hidden  bg-white shadow-lift">
             <Image
               src="/watch.jpg"
-              alt="EcoCet premium watch strap displayed on a wooden surface"
+              alt="SheBreak premium watch strap displayed on a wooden surface"
               fill
               className="object-cover"
               priority

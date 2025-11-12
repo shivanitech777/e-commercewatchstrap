@@ -35,25 +35,25 @@ export default function CollectionDetailClient({
             </p>
             <p className="text-base text-stone-600">
               Each assortment is intentionally curated to highlight materials,
-              moods, and finishing details that define EcoCet&apos;s craft
+              moods, and finishing details that define SheBreak&apos;s craft
               language. Pair these straps with your favourite complications or
               daily drivers.
             </p>
             <p className="text-base text-stone-600">
               Each assortment is intentionally curated to highlight materials,
-              moods, and finishing details that define EcoCet&apos;s craft
+              moods, and finishing details that define SheBreak&apos;s craft
               language. Pair these straps with your favourite complications or
               daily drivers.
             </p>
             <p className="text-base text-stone-600">
               Each assortment is intentionally curated to highlight materials,
-              moods, and finishing details that define EcoCet&apos;s craft
+              moods, and finishing details that define SheBreak&apos;s craft
               language. Pair these straps with your favourite complications or
               daily drivers.
             </p>
             <p className="text-base text-stone-600">
               Each assortment is intentionally curated to highlight materials,
-              moods, and finishing details that define EcoCet&apos;s craft
+              moods, and finishing details that define SheBreak&apos;s craft
               language. Pair these straps with your favourite complications or
               daily drivers.
             </p>

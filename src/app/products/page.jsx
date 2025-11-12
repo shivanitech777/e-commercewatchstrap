@@ -12,7 +12,7 @@ export default function ProductsPage() {
   return (
     <main className="relative pt-[6.5rem] pb-20">
       <PageTitle
-        title="All EcoCet Straps"
+        title="All SheBreak Straps"
         subtitle="Browse our complete line-up of sustainably crafted straps. Each piece is designed for comfort, longevity, and an elevated wrist presence."
       />
 

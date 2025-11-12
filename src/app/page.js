@@ -99,7 +99,7 @@ export default function Page() {
               Elevated materials. Ethically sourced.
             </h2>
             <p className="text-base text-stone-500">
-              Every EcoCet strap begins with carefully selected materials that
+              Every SheBreak strap begins with carefully selected materials that
               honour the planet. From vegetable-tanned leathers to recycled
               performance fibres, each piece is engineered for longevity and a
               luxuriously soft hand-feel.
@@ -152,7 +152,7 @@ export default function Page() {
               A story of craft and consciousness.
             </h2>
             <p className="text-base text-stone-600">
-              EcoCet was born from the desire to merge horological passion with
+              SheBreak was born from the desire to merge horological passion with
               environmental stewardship. Our artisans spend over 35 hours on
               every strap, ensuring each stitch reflects a commitment to both
               quality and responsibility.
@@ -187,7 +187,7 @@ export default function Page() {
             </h2>
             <p className="mx-auto max-w-2xl text-base text-stone-600">
               Our atelier provides personalised consultations to match your
-              timepiece with the perfect EcoCet strap. Reach out to collaborate
+              timepiece with the perfect SheBreak strap. Reach out to collaborate
               on colours, materials, and fit.
             </p>
             <motion.a
