@@ -6,7 +6,7 @@ export const collections = [
     description:
       "Timeless leather essentials crafted for effortless rotation and a dependable fit.",
     image: "/watch.jpg",
-    featuredProducts: ["copper-canyon", "verdant-heritage", "cognac-heritage"],
+    featuredProducts: ["copper-canyon", "verdant-heritage", "cognac-heritage", "emerald-ridge"],
   },
   {
     id: "sport-editions",
@@ -15,7 +15,7 @@ export const collections = [
     description:
       "Lightweight, breathable straps engineered with modern, durable textiles.",
     image: "/k.jpg",
-    featuredProducts: ["sapphire-aero", "slate-ridge", "alpine-ridge"],
+    featuredProducts: ["sapphire-aero", "slate-ridge", "alpine-ridge", "emerald-ridge"],
   },
   {
     id: "premium-leather",
@@ -24,7 +24,7 @@ export const collections = [
     description:
       "Vegetable-tanned and vegan alternatives crafted to age beautifully.",
     image: "/brown.jpg",
-    featuredProducts: ["emerald-ridge", "midnight-current", "noir-classic"],
+    featuredProducts: ["emerald-ridge", "midnight-current", "noir-classic" , "honeycomb-weave"],
   },
   {
     id: "eco-linen",
@@ -33,7 +33,7 @@ export const collections = [
     description:
       "Organic cottons, recycled fibers, and upcycled textiles for conscious collectors.",
     image: "/straps.jpg",
-    featuredProducts: ["honeycomb-weave", "cloudline-eco", "desert-dune"],
+    featuredProducts: ["honeycomb-weave", "cloudline-eco", "desert-dune","verdant-heritage"],
   },
 ];
 
