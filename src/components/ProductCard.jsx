@@ -30,7 +30,7 @@ export default function ProductCard({ product }) {
             />
           </div>
         </div>
-        <div className="flex flex-1 flex-col justify-between gap-3 pt-4">
+        <div className="flex flex-1 flex-col justify-between gap-3 pt-4 px-2">
           <div className="space-y-1">
             <h3 className="text-base font-semibold text-ink sm:text-lg">
               <span
