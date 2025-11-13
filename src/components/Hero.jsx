@@ -99,7 +99,7 @@ export default function Hero() {
             />
           </div>
           <motion.div
-            className="absolute -bottom-10 left-1/3 w-[85%] -translate-x-1/2  border border-white/60 bg-white/90 p-6 shadow-soft backdrop-blur"
+            className="absolute -bottom-10 left-[10%] md:left-1/3 w-[85%] -translate-x-1/2  border border-white/60 bg-white/90 p-6 shadow-soft backdrop-blur"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6, ease: [0.19, 1, 0.22, 1] }}
