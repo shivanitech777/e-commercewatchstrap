@@ -54,17 +54,7 @@ export default function Page() {
     <main className="relative ">
       <Hero />
 
-      <section id="collections" className="bg-white">
-        <div className="max-content-width py-3">
-          <SectionTitle
-            eyebrow="Curated Collections"
-            title="Straps for every story you wear"
-            subtitle="Explore tailored line-ups that balance craft and conscience. Each collection is a mood, a moment, and a material story."
-            align="center"
-          />
-          <CollectionsGrid items={collections} />
-        </div>
-      </section>
+     
 
       {showcaseSections.map((section) => (
         <motion.section
@@ -85,6 +75,17 @@ export default function Page() {
           </div>
         </motion.section>
       ))}
+       <section id="collections" className="bg-white">
+        <div className="max-content-width py-3">
+          <SectionTitle
+            eyebrow="Curated Collections"
+            title="Straps for every story you wear"
+            subtitle="Explore tailored line-ups that balance craft and conscience. Each collection is a mood, a moment, and a material story."
+            align="center"
+          />
+          <CollectionsGrid items={collections} />
+        </div>
+      </section>
 
       <motion.section
         id="materials"
@@ -138,6 +139,7 @@ export default function Page() {
           </motion.div>
         </div>
       </motion.section>
+      
 
       <motion.section
         id="story"
@@ -172,6 +174,7 @@ export default function Page() {
           </motion.div>
         </div>
       </motion.section>
+      
 
       <motion.section
         id="contact"
@@ -201,6 +204,8 @@ export default function Page() {
           </motion.div>
         </div>
       </motion.section>
+      
     </main>
+    
   );
 }

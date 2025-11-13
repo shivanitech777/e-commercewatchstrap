@@ -58,7 +58,7 @@
   }
 
   .max-content-width {
-    @apply mx-auto w-full max-w-7xl px-6 lg:px-12;
+    @apply mx-auto w-full max-w-7xl px-3 lg:px-12;
   }
 }
 

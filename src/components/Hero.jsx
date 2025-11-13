@@ -21,7 +21,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(17,83,53,0.08),transparent_60%)]" />
       </div>
 
-      <div className="max-content-width grid items-center gap-16 pt-[2.1rem] lg:grid-cols-[1.1fr_0.9fr] lg:gap-20">
+      <div className="max-content-width grid items-center gap-10 pt-[2.1rem] lg:grid-cols-[1.1fr_0.9fr] lg:gap-10">
         <motion.div
           initial="hidden"
           whileInView="visible"
