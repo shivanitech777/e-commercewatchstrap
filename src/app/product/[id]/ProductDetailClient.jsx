@@ -19,7 +19,7 @@ export default function ProductDetailClient({ product, relatedProducts }) {
         <div className="max-content-width grid gap-12 lg:grid-cols-[1.1fr_0.9fr]">
           <motion.div
             variants={slideInRight}
-            className="relative aspect-[4/5] overflow-hidden rounded-[40px] bg-ivory shadow-lift"
+            className="relative aspect-[4/5] overflow-hidden rounded bg-ivory shadow-lift"
           >
             <Image
               src={product.image}
