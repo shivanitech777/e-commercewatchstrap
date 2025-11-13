@@ -20,7 +20,7 @@ export default function ProductCard({ product }) {
         className="flex h-full flex-col overflow-hidden cursor-pointer  bg-white p-1 shadow-soft transition duration-300 "
       >
         <div className="block">
-          <div className="relative aspect-[4/4] overflow-hidden  bg-sand ">
+          <div className="relative aspect-[4/5] overflow-hidden  bg-sand ">
             <Image
               src={product.image}
               alt={product.name}
@@ -30,7 +30,7 @@ export default function ProductCard({ product }) {
             />
           </div>
         </div>
-        <div className="flex flex-1 flex-col justify-between gap-3 pt-4 px-2">
+        <div className="flex flex-1 flex-col justify-between gap-3 pt-4 px-1 pb-1">
           <div className="space-y-1">
             <h3 className="text-base font-semibold text-ink sm:text-lg">
               <span
